@@ -19,18 +19,18 @@ Nivaas is a fully functional full-stack MERN dashboard real estate application t
 
 ## Tech Stack
 
-**Client:** React, Refine, Material UI, Typescript
+**Client:** React, Typescript, Refine, Material UI
 
 **Server:** Node, Express, Mongoose, Cloudinary
 
 
 ## Screenshots
 
-![nivaas vercel app_ (2)](https://user-images.githubusercontent.com/103204431/220138271-c67266f2-aa3b-4a0a-8da0-0ad8e143c5ed.png)
+![nivaas vercel app_ (1)](https://user-images.githubusercontent.com/103204431/220138271-c67266f2-aa3b-4a0a-8da0-0ad8e143c5ed.png)
 
-![nivaas vercel app_ (3)](https://user-images.githubusercontent.com/103204431/220138282-05a7073a-4743-4617-8767-ed45f750d8fa.png)
+![nivaas vercel app_ (2)](https://user-images.githubusercontent.com/103204431/220138282-05a7073a-4743-4617-8767-ed45f750d8fa.png)
 
-![nivaas vercel app_ (4)](https://user-images.githubusercontent.com/103204431/220138360-191f3789-ea0b-4d5c-b95c-6578677fd345.png)
+![nivaas vercel app_ (3)](https://user-images.githubusercontent.com/103204431/220138360-191f3789-ea0b-4d5c-b95c-6578677fd345.png)
 
-![nivaas vercel app_ (5)](https://user-images.githubusercontent.com/103204431/220138387-62040207-6639-420f-b195-513f680ce4d6.png)
+![nivaas vercel app_ (4)](https://user-images.githubusercontent.com/103204431/220138387-62040207-6639-420f-b195-513f680ce4d6.png)
 
