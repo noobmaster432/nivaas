@@ -1,28 +1,41 @@
-# Nivaas
+# Nivaas: Real Estate Dashboard Application
 
-Nivaas is a fully functional full-stack MERN dashboard real estate application that provides complete CRUD functionalities, authentication, pagination, sorting, filtering, and more. The application has been built using Node.js, Express.js, MongoDB, and React.js to create a powerful and efficient MERN stack.
+Nivaas is a feature-rich, fully functional full-stack MERN (MongoDB, Express.js, React.js, Node.js) dashboard application tailored for the real estate domain. With comprehensive CRUD functionalities, authentication, advanced data handling, and an elegant user interface, Nivaas empowers real estate professionals to efficiently manage and showcase property listings.
 
 ### [Demo](https://nivaas.vercel.app/)
 
-
 ## Features
 
-- Complete CRUD functionalities
-- Authentication
-- Pagination, sorting, and filtering
-- Pixel-perfect design using Material UI
-- Built using TypeScript
-- Google Auth for quick and easy login and registration
-- Optimized images and cloud storage using Cloudinary
-- Built using refine for quick React-based CRUD application development
+- **Complete CRUD Functionalities:** Seamlessly manage property listings with Create, Read, Update, and Delete operations.
 
+- **Authentication:** Secure your data with user authentication, ensuring authorized access and data privacy.
+
+- **Pagination, Sorting, and Filtering:** Efficiently navigate through property listings using pagination, sort data for better organization, and apply filters for targeted results.
+
+- **Pixel-Perfect Design with Material UI:** Enjoy a visually appealing and user-friendly experience with a pixel-perfect design built using Material UI components.
+
+- **Built Using TypeScript:** Leverage the benefits of TypeScript for enhanced code quality, type safety, and improved development.
+
+- **Google Auth for Quick and Easy Login and Registration:** Provide users with the convenience of quick registration and login using Google authentication.
+
+- **Optimized Images and Cloud Storage using Cloudinary:** Optimize image rendering and storage efficiency through integration with Cloudinary's cloud-based media management platform.
+
+- **Built Using Refine for Quick React-based CRUD Development:** Utilize Refine, a powerful library for rapid development of React-based CRUD applications, enhancing productivity and code maintainability.
 
 ## Tech Stack
 
-**Client:** React, Typescript, Refine, Material UI
+- Frontend: Reactjs, Material UI, Typescript, Refine
+- Backend: Node.js, Express
+- Database: Mongoose(ODM), MongoDB
+- Authentication: Google Auth
+- Image Optimization and Storage: Cloudinary
+- API Communication: Axios
 
-**Server:** Node, Express, Mongoose, Cloudinary
+---
 
+Experience the power of Nivaas: Elevate your real estate management with a complete MERN stack solution. Simplify CRUD operations, ensure data security, and enjoy an intuitive interface that streamlines your workflow.
+
+---
 
 ## Screenshots
 
@@ -33,4 +46,3 @@ Nivaas is a fully functional full-stack MERN dashboard real estate application t
 ![nivaas vercel app_ (3)](https://user-images.githubusercontent.com/103204431/220138360-191f3789-ea0b-4d5c-b95c-6578677fd345.png)
 
 ![nivaas vercel app_ (4)](https://user-images.githubusercontent.com/103204431/220138387-62040207-6639-420f-b195-513f680ce4d6.png)
-
