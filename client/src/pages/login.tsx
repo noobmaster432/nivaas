@@ -1,8 +1,7 @@
 import { useEffect, useRef } from "react";
 import { useLogin } from "@pankod/refine-core";
 import { Container, Box } from "@pankod/refine-mui";
-
-import { yariga } from "../assets"
+import { logo, tower } from "../assets";
 
 import { CredentialResponse } from "../interfaces/google";
 
@@ -36,7 +35,7 @@ export const Login: React.FC = () => {
       } catch (error) {
         console.log(error);
       }
-    }, []); // you can also add your client id as dependency here
+    }, []);
 
     return <div ref={divRef} />;
   };
@@ -65,9 +64,18 @@ export const Login: React.FC = () => {
           }}
         >
           <div>
-            <img src={yariga} alt="Yariga Logo" />
+            <img src={tower} alt="tower Logo" height={300} />
           </div>
-          <Box mt={4}>
+          <div style={{
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            gap: "10px",
+          }}>
+            <img src={logo} alt="Yariga Logo" />
+            <h1 style={{color: "indigo"}}>Nivaas</h1>
+          </div>
+          <Box>
             <GoogleButton />
           </Box>
         </Box>
