@@ -7,6 +7,7 @@ import {
   Typography,
   // IconButton,
   Avatar,
+  Chip,
 } from "@pankod/refine-mui";
 // import { DarkModeOutlined, LightModeOutlined } from "@mui/icons-material";
 
@@ -19,9 +20,14 @@ export const Header: React.FC = () => {
   const shouldRenderHeader = true;
 
   return shouldRenderHeader ? (
-    <AppBar color="default" position="sticky" elevation={0} sx={{
-      background: "#FCFCFC"
-    }}>
+    <AppBar
+      color="default"
+      position="sticky"
+      elevation={0}
+      sx={{
+        background: "#FCFCFC",
+      }}
+    >
       <Toolbar>
         <Stack
           direction="row"
@@ -43,7 +49,11 @@ export const Header: React.FC = () => {
             justifyContent="center"
           >
             {user?.name ? (
-              <Typography variant="subtitle2">{user?.name}</Typography>
+              <Chip
+                label={user?.name}
+                clickable
+                avatar={<Avatar>{user?.name[0]}</Avatar>}
+              />
             ) : null}
             {user?.avatar ? (
               <Avatar src={user?.avatar} alt={user?.name} />

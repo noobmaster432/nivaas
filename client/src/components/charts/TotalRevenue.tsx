@@ -13,6 +13,7 @@ const TotalRevenue = () => {
       borderRadius="15px"
       display="flex"
       flexDirection="column"
+      minWidth="30%"
     >
       <Typography fontSize={18} fontWeight={600} color="#11142d">
         Total Revenue
