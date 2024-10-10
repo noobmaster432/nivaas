@@ -37,7 +37,7 @@ import {
 import { Title as DefaultTitle } from "../title";
 
 export const Sider: typeof DefaultSider = ({ render }) => {
-  const [collapsed, setCollapsed] = useState(false);
+  const [collapsed, setCollapsed] = useState(true);
   const [opened, setOpened] = useState(false);
 
   const drawerWidth = () => {
